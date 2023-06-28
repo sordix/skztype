@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f8fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column; /* Adicionado para empilhar os elementos verticalmente */
+}
+
+h1 {
+    text-align: center;
+    margin-left: 15px;
+    color: #312f3a;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Adicionado para empilhar os elementos verticalmente */
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 30px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+button,
+button2,
+button3 {
+  background: #d800ff;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+  margin: 10px; /* Adicionado espaçamento entre os botões */
+  margin-left: 15px;
+}
+
+button:hover,
+button2:hover,
+button3:hover {
+  background: #d375e4;
+}
+
+.contact-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media screen and (max-width: 870px) {
+    body {
+        font-family: "Poppins", sans-serif;
+        margin-right: 35px;
+      }
+      button, button2, button3 {
+        margin-left: 5px !important;
+    }
+}
+@media screen and (max-width: 470px) {
+    body {
+        font-family: "Poppins", sans-serif;
+        margin-right: 35px;
+      }
+      button, button2, button3 {
+        margin-left: 5px !important;
+    }
+}
